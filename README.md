@@ -43,7 +43,8 @@ R.WriteInFile( /* SoundData  e.g.: R.Record()   */ );
 ###### Close The File
 `int CloseFile()`
 ```
-R.CloseFile();```
+R.CloseFile();
+```
 ###### Record
 
 `BYTE* Record(int RecordTime_ms , DWORD NewSize = 1024 * 1024)`
